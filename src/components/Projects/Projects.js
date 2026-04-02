@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // ── Kept projects ──────────────────────────────────────────────────────────
-import leaf from "../../Assets/Projects/leaf.png";
+import skiDashboard from "../../Assets/Projects/twitter-card.png";
 import emotion from "../../Assets/Projects/emotion.png";
 
 // ── Facilities Management ──────────────────────────────────────────────────
@@ -39,7 +39,7 @@ function Projects() {
           {/* ── Skiing Weather Dashboard ─────────────────────────────── */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={skiDashboard}
               isBlog={false}
               title="Skiing Weather Dashboard"
               tags={["HTML", "JavaScript", "TailwindCSS", "API"]}
