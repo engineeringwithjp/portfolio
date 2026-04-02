@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // ── Kept projects ──────────────────────────────────────────────────────────
-import skiDashboard from "../../Assets/Projects/twitter-card.png";
+import skiDashboard from "../../Assets/Projects/ski_dashboard_thumbnail.png";
 import emotion from "../../Assets/Projects/emotion.png";
 
 // ── Facilities Management ──────────────────────────────────────────────────
@@ -89,7 +89,7 @@ function Projects() {
               imgPath={howieThumbnail}
               isBlog={false}
               title="AI Training for LLMs"
-              tags={["CMMS", "FacilityDude", "PMP", "NJDMAVA"]}
+              tags={["LLMs", "SQL", "JSON", "Howie AI", "QA", "Slack"]}
               description="Served as an AI Analyst & Trainer at Howie, a scheduling assistant platform. Reviewed and corrected AI-predicted tool calls including calendar queries, event creation, and client emails. Ensured accuracy across timezones, attendees, and scheduling logic while collaborating with engineers and trainers to resolve bugs and improve the AI's performance."
               extraDetail="Managed high-volume loop queues, catching and correcting AI errors before client delivery. Applied QA standards using JSON inspection, SQL queries, and structured bug reporting. Strengthened AI-human collaboration by maintaining professional, accurate communication on behalf of clients — reducing scheduling errors and improving overall workflow efficiency."
               pdfLink={howieAI}
