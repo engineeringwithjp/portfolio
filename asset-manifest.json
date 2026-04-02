@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1f827af2.css",
-    "main.js": "/portfolio/static/js/main.df89ef94.js",
+    "main.js": "/portfolio/static/js/main.921671d5.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/profile.JPEG": "/portfolio/static/media/profile.cb64767faa7534a32bd0.JPEG",
     "static/media/ski_dashboard_thumbnail.png": "/portfolio/static/media/ski_dashboard_thumbnail.afcd5bd919ffe8bb40bc.png",
@@ -47,11 +47,11 @@
     "static/media/autodesk-inventor-icon-48.svg": "/portfolio/static/media/autodesk-inventor-icon-48.559b872409611ac5c26b1ee0356084f9.svg",
     "static/media/icons8-figma-48.svg": "/portfolio/static/media/icons8-figma-48.44ca2c329ade686d78f62ad73790c621.svg",
     "main.1f827af2.css.map": "/portfolio/static/css/main.1f827af2.css.map",
-    "main.df89ef94.js.map": "/portfolio/static/js/main.df89ef94.js.map",
+    "main.921671d5.js.map": "/portfolio/static/js/main.921671d5.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f827af2.css",
-    "static/js/main.df89ef94.js"
+    "static/js/main.921671d5.js"
   ]
 }
