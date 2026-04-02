@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b690caf3.css",
-    "main.js": "/portfolio/static/js/main.7b494cfc.js",
+    "main.js": "/portfolio/static/js/main.74aa4b3f.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/site_visit.JPG": "/portfolio/static/media/site_visit.bfd3d85fd2649995903a.JPG",
     "static/media/Sustainable-Facilities-Project.pdf": "/portfolio/static/media/Sustainable-Facilities-Project.8880b5acaf4b32489a57.pdf",
-    "static/media/leaf.png": "/portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/Pineda_Xu_FaceRecognition_Report.pdf": "/portfolio/static/media/Pineda_Xu_FaceRecognition_Report.703280a0005004d4236e.pdf",
     "static/media/emotion.png": "/portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/flanged_elbow.pdf": "/portfolio/static/media/flanged_elbow.a0124c818bec6ac4b54b.pdf",
@@ -13,6 +12,7 @@
     "static/media/home-main.svg": "/portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/excercise20.jpg": "/portfolio/static/media/excercise20.af9d4f608279b02c2d98.jpg",
+    "static/media/twitter-card.png": "/portfolio/static/media/twitter-card.53ec2e6b8d3b435589ad.png",
     "static/media/msproject.png": "/portfolio/static/media/msproject.b731f8974745114a6b5f.png",
     "static/media/logo.png": "/portfolio/static/media/logo.5dbef8b807e6bafa11e1.png",
     "static/media/avatar.svg": "/portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
@@ -36,11 +36,11 @@
     "static/media/autodesk-inventor-icon-48.svg": "/portfolio/static/media/autodesk-inventor-icon-48.559b872409611ac5c26b1ee0356084f9.svg",
     "static/media/icons8-figma-48.svg": "/portfolio/static/media/icons8-figma-48.44ca2c329ade686d78f62ad73790c621.svg",
     "main.b690caf3.css.map": "/portfolio/static/css/main.b690caf3.css.map",
-    "main.7b494cfc.js.map": "/portfolio/static/js/main.7b494cfc.js.map",
+    "main.74aa4b3f.js.map": "/portfolio/static/js/main.74aa4b3f.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b690caf3.css",
-    "static/js/main.7b494cfc.js"
+    "static/js/main.74aa4b3f.js"
   ]
 }
