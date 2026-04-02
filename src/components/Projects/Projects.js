@@ -22,6 +22,10 @@ import flangedElbowPdf from "../../Assets/Projects/flanged_elbow.pdf";
 // ── Face Recognition ───────────────────────────────────────────────────────
 import faceReportPdf from "../../Assets/Projects/Pineda_Xu_FaceRecognition_Report.pdf";
 
+// ── LLM AI Training ───────────────────────────────────────────────────────
+import howieAI from "../../Assets/Projects/John_Howie_AI_Portfolio.pdf";
+import howieThumbnail from "../../Assets/Projects/howie_thumbnail.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -49,20 +53,6 @@ function Projects() {
             />
           </Col>
 
-          {/* ── Face Recognition & Emotion Detection ─────────────────── */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition & Emotion Detection"
-              tags={["Python", "TensorFlow", "OpenCV", "CNN"]}
-              description="Trained a CNN classifier on the FER-2013 dataset using Keras and TensorFlow, achieving 60.1% accuracy across multiple emotion categories. OpenCV is used for real-time face detection; the detected face is passed to the classifier for live emotion prediction. Feature extraction was performed via 2-D DCT zigzag scanning and a kNN classifier evaluated on the AT&T face database."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              pdfLink={faceReportPdf}
-              pdfLabel="Lab Report"
-            />
-          </Col>
-
           {/* ── Facilities Management Internship ─────────────────────── */}
           <Col md={4} className="project-card">
             <ProjectCard
@@ -73,9 +63,8 @@ function Projects() {
               description="Collaborated with Rowan University's Sustainable Facilities Center (SFC) and the NJ Department of Military & Veterans Affairs (NJDMAVA) to develop Level II Planned Maintenance Plans for armory facilities across New Jersey. Conducted on-site inspections of HVAC, electrical, fire, and plumbing systems; entered data into the FacilityDude CMMS; and co-authored an article featured in the NJARNG Clean Cut Quarterly sustainability newsletter."
               extraDetail="The Sustainable Facilities clinic pairs Rowan engineering juniors and seniors with credentialed engineers to solve real maintenance challenges. Work is guided by BUILDER SMS asset data and culminates in actionable maintenance schedules that reduce reactive repairs and support NJDMAVA's push toward planned, preventative maintenance across 150+ buildings."
               pdfLink={ccqPdf}
-              pdfLabel="Clean Cut Quarterly"
-              pdfLink2={memoPdf}
-              pdfLabel2="Background Memo"
+              pdfLabel="Engineering Article in CCQ Newsletter"
+
             />
           </Col>
 
@@ -91,6 +80,35 @@ function Projects() {
               videoLink="https://youtu.be/REo8Yp04Cvc?si=YEIbVRU38q1c9XSn"
               pdfLink={flangedElbowPdf}
               pdfLabel="Flanged Elbow Drawing"
+            />
+          </Col>
+
+          {/* ── LLM AI Training ─────────────────────── */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={howieThumbnail}
+              isBlog={false}
+              title="AI Training for LLMs"
+              tags={["CMMS", "FacilityDude", "PMP", "NJDMAVA"]}
+              description="Served as an AI Analyst & Trainer at Howie, a scheduling assistant platform. Reviewed and corrected AI-predicted tool calls including calendar queries, event creation, and client emails. Ensured accuracy across timezones, attendees, and scheduling logic while collaborating with engineers and trainers to resolve bugs and improve the AI's performance."
+              extraDetail="Managed high-volume loop queues, catching and correcting AI errors before client delivery. Applied QA standards using JSON inspection, SQL queries, and structured bug reporting. Strengthened AI-human collaboration by maintaining professional, accurate communication on behalf of clients — reducing scheduling errors and improving overall workflow efficiency."
+              pdfLink={howieAI}
+              pdfLabel="Portfolio Showcase PDF"
+
+            />
+          </Col>
+
+          {/* ── Face Recognition & Emotion Detection ─────────────────── */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Face Recognition & Emotion Detection"
+              tags={["Python", "TensorFlow", "OpenCV", "CNN"]}
+              description="Trained a CNN classifier on the FER-2013 dataset using Keras and TensorFlow, achieving 60.1% accuracy across multiple emotion categories. OpenCV is used for real-time face detection; the detected face is passed to the classifier for live emotion prediction. Feature extraction was performed via 2-D DCT zigzag scanning and a kNN classifier evaluated on the AT&T face database."
+              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              pdfLink={faceReportPdf}
+              pdfLabel="Lab Report"
             />
           </Col>
 
