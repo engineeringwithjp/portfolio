@@ -12,6 +12,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 
@@ -183,12 +184,23 @@ function NavBar() {
 
               <Nav.Item>
                 <Nav.Link
-                  href="YOUR_BLOG_URL_HERE"
+                  href="https://www.linkedin.com/in/pinedajohnchristopher/" //Put your blog URL here
                   target="_blank"
                   rel="noreferrer"
                   className="nav-link-item"
                 >
                   <ImBlog /> Blogs
+                </Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/contact"
+                  className="nav-link-item"
+                  onClick={() => updateExpanded(false)}
+                >
+                  <AiOutlineMail /> Contact
                 </Nav.Link>
               </Nav.Item>
 

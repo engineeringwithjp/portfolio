@@ -40,7 +40,7 @@ function AboutCard() {
             <br />
             <br />
             While I have a foundation in software and electrical engineering, I’m especially passionate about{" "}
-            <span className="purple">civil engineering</span>—particularly in{" "}
+            <span className="purple">civil engineering</span>, particularly in{" "}
             <span className="purple">facilities management</span>,{" "}
             <span className="purple">BIM</span>,{" "}
             <span className="purple">infrastructure systems</span>, and{" "}
@@ -48,7 +48,7 @@ function AboutCard() {
             <span className="purple">GIS data</span> to create practical, impactful solutions.
             <br />
             <br />
-            Driven by curiosity since childhood, I’ve always been interested in how systems work—and how to improve them. My long-term goal is to grow as an engineer and build my own{" "}
+            Driven by curiosity since childhood, I’ve always been interested in how systems work and how to improve them. My long-term goal is to grow as an engineer and build my own{" "}
             <span className="purple">engineering consulting company</span>.
             <br />
             <br />
@@ -60,7 +60,7 @@ function AboutCard() {
               <ImPointRight /> Building drones & exploring AI projects 🚀
             </li>
             <li className="about-activity">
-              <ImPointRight /> Biking, skiing, and endurance training 🚴‍♂️
+              <ImPointRight /> Biking, skiing, and hiking with my dog ares 🐶
             </li>
             <li className="about-activity">
               <ImPointRight /> Creating, learning, and connecting with builders 🤝
