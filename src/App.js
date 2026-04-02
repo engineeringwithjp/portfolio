@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Contact from "./components/Contact/Contact";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,  // 👈 only change this line
   Route,
   Routes,
   Navigate
