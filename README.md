@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=John%20Christopher%20Pineda&fontSize=45&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20The%20Alpine%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=John%20Christopher%20Pineda&fontSize=45&fontColor=ffffff&fontAlignY=38&desc=Junior%20Engineer%20%7C%20The%20Alpine%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <!-- Typing Animation -->
 <a href="https://github.com/engineeringwithjp">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Full+Stack+Engineer+%F0%9F%9A%80;React+%7C+Node.js+%7C+JavaScript+%E2%9C%A8;Building+elegant+solutions+%F0%9F%8F%94%EF%B8%8F;Welcome+to+my+Portfolio+%F0%9F%91%8B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Electrical+Engineer+%E2%9A%A1;Aspiring+Civil+Engineer+%F0%9F%8F%97%EF%B8%8F;Operations+Manager+%F0%9F%93%8B;Entrepreneur+%F0%9F%9A%80;Software+Developer+%F0%9F%92%BB" alt="Typing SVG" />
 </a>
 
 <br/>
