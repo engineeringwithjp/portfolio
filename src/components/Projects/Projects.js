@@ -18,6 +18,7 @@ import memoPdf from "../../Assets/Projects/Pineda_Background-Memo.docx"; // docx
 // ── OnShape CAD Projects ───────────────────────────────────────────────────
 import cadSketch from "../../Assets/Projects/excercise20.jpg";
 import flangedElbowPdf from "../../Assets/Projects/flanged_elbow.pdf";
+import Engine from "../../Assets/Projects/4engine.png";
 
 // ── Face Recognition ───────────────────────────────────────────────────────
 import faceReportPdf from "../../Assets/Projects/Pineda_Xu_FaceRecognition_Report.pdf";
@@ -76,7 +77,7 @@ function Projects() {
               title="OnShape CAD Projects"
               tags={["CAD", "OnShape", "Mechanical Design", "3D Modeling"]}
               description="A collection of 3-D mechanical design projects modeled in OnShape, including multi-view orthographic drawings, part sketches, and assembly-level work. Featured designs include a flanged 90° elbow fitting with full dimensioned section views, and various exercise sketches demonstrating geometric constraints and parametric modeling."
-              galleryImages={[cadSketch]}
+              galleryImages={[Engine]}
               videoLink="https://youtu.be/REo8Yp04Cvc?si=YEIbVRU38q1c9XSn"
               pdfLink={flangedElbowPdf}
               pdfLabel="Flanged Elbow Drawing"
@@ -106,9 +107,8 @@ function Projects() {
               title="Face Recognition & Emotion Detection"
               tags={["Python", "TensorFlow", "OpenCV", "CNN"]}
               description="Trained a CNN classifier on the FER-2013 dataset using Keras and TensorFlow, achieving 60.1% accuracy across multiple emotion categories. OpenCV is used for real-time face detection; the detected face is passed to the classifier for live emotion prediction. Feature extraction was performed via 2-D DCT zigzag scanning and a kNN classifier evaluated on the AT&T face database."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               pdfLink={faceReportPdf}
-              pdfLabel="Lab Report"
+              pdfLabel="Project Showcase Report PDF"
             />
           </Col>
 
