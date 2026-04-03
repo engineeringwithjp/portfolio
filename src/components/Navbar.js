@@ -125,7 +125,7 @@ function NavBar() {
         className={navColour ? "sticky" : "navbar"}
       >
         <Container>
-          <Navbar.Brand href="/" className="d-flex align-items-center">
+          <Navbar.Brand href="https://engineeringwithjp.github.io/portfolio/#/" className="d-flex align-items-center">
             <img src={logo} className="img-fluid logo" alt="brand" />
           </Navbar.Brand>
           <Navbar.Toggle
